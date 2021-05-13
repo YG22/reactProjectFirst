@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 8vh;
+  background: #3f51b5;
+  color: #fff;
+}
+
+.header h1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+}
+
+.header_team_name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+  position: relative;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+h6 {
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  width: 90vw;
+  height: 60vh;
+}
+
+.teamImg {
+  margin: 10px;
+}
+
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.btns Button{
+    margin-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  border-radius: 25px;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  height: 6vh;
+}
+
+th {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  height: 6vh;
+}
+tr:nth-child(even):hover {
+  background-color: #fff;
+}
+
+td:hover {
+  border: 1px solid;
+  box-shadow: 0px 0px 20px rgba(63, 81, 181, 0.5) inset;
+  color: #3f51b5;
+  font-weight: 800;
+}
+
+th:hover {
+  border: 1px solid;
+  box-shadow: 1px 1px 30px rgba(245, 0, 87, 0.5);
+  color: #f50057;
+}
+
+.ans {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+}
+
+.like {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.like:hover {
+  fill: #3f51b5;
+}
+
+.dislike:hover {
+  fill: #f50057;
+}
